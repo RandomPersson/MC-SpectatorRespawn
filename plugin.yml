@@ -1,0 +1,23 @@
+name: SpectatorRespawn
+version: 0.0
+description: Respawn in spectator mode
+api-version: 1.15
+load: POSTWORLD
+author: RandomPersson
+authors: []
+website: https://discord.gg/RmDbKqq
+
+main: pl.org.mensa.rp.mc.SpectatorRespawn.SpectatorRespawnPlugin
+database: false
+depend: []
+prefix: 
+softdepend: []
+loadbefore: []
+
+permissions:
+  spectatorrespawn.exempt:
+    description: Exempts from respawning in spectator mode
+    default: false
+  spectatorrespawn.exemptoverride:
+    description: You will respawn as spectator even if you are an operator
+    default: false
